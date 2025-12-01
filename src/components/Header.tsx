@@ -33,7 +33,7 @@ function Header() {
     });
 
     return (
-        <header id="Header" className={`fixed scroll-smooth transition duration-500 z-5 top-0 w-screen px-[20px] xl:px-[45px] flex justify-between items-center ${scrolled ? 'bg-cyan-950/80 backdrop-blur-lg h-[65px] shadow-lg' : 'bg-transparent h-[100px]'}`}>
+        <header id="Header" className={`fixed scroll-smooth transition duration-500 z-5 top-0 w-screen px-5 xl:px-[45px] flex justify-between items-center ${scrolled ? 'bg-cyan-950/80 backdrop-blur-lg h-[65px] shadow-lg' : 'bg-transparent h-[100px]'}`}>
             <div className="flex flex-row-reverse justify-between w-full items-center gap-3">
                 <div className=" flex flex-col items-end md:flex-row-reverse">
                     <a href="https://www.instagram.com/dra.v_luizmacedoadvogada/" target="_blank" className="text-white font-Inter font-extralight md:pl-[25px] text-[12px] md:text-[18px]">@dra.v_luizmacedoadvogada</a>

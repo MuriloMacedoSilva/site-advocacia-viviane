@@ -17,7 +17,7 @@ export default function Footer() {
                 <div className="flex flex-col items-center md:items-start text-center md:text-left">
                     <img
                         src={logoHead}
-                        alt="Logo"
+                        alt="Logo advocacia"
                         className="w-[150px] mb-4"
                     />
                     <p className="max-w-xs">

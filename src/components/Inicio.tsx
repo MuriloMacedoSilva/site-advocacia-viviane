@@ -28,12 +28,12 @@ function Inicio() {
     return (
         <section
             id="Inicio"
-            className="bg-transparent py-[100px] md:py-[200px] lg:py-[200px] xl:py-[350px] xl:h-[100vh] scroll-smooth md:mt-0 left-0 w-screen flex flex-col pb-[100px] px-[20px] md:flex-row md:justify-center md:gap-10 md:items-center"
+            className="bg-transparent py-[100px] md:py-[200px] lg:py-[200px] xl:py-[350px] xl:h-screen scroll-smooth md:mt-0 left-0 w-screen flex flex-col pb-[100px] px-5 md:flex-row md:justify-center md:gap-10 md:items-center"
         >
             {/* Fundo */}
-            <img src={backgroundMobile} alt="fundo imagem de prédios" className="absolute top-0 w-screen left-0 z-[-2] md:hidden" />
-            <img src={backgroundInicio} alt="fundo prédios" className="absolute top-0 left-0 z-[-2] md:block xl:hidden hidden object-cover" />
-            <img src={backgroundInicioXL} alt="fundo prédios" className="absolute top-0 left-0 z-[-2] xl:block hidden object-cover" />
+            <img src={backgroundMobile} alt="fundo imagem de prédios empresas advocacia" className="absolute top-0 w-screen left-0 z-[-2] md:hidden" />
+            <img src={backgroundInicio} alt="fundo prédios empresa advocacia" className="absolute top-0 left-0 z-[-2] md:block xl:hidden hidden object-cover" />
+            <img src={backgroundInicioXL} alt="fundo prédios empresa advocacia" className="absolute top-0 left-0 z-[-2] xl:block hidden object-cover" />
 
             {/* Nome - desliza da esquerda para direita */}
             <motion.div
@@ -42,7 +42,7 @@ function Inicio() {
                 animate={showContent ? { x: 0, opacity: 1 } : {}}
                 transition={{ duration: 1, ease: "easeOut" }}
             >
-                <h1 className="text-[90px] font-Italiana bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent md:text-[110px] md:leading-[100px] lg:text-[150px] leading-[90px] lg:leading-[130px] xl:leading-[150px] font-normal xl:text-[170px]">
+                <h1 className="text-[90px] font-Italiana bg-linear-to-r from-orange-300 from-0% to-80% to-yellow-200 bg-clip-text text-transparent md:text-[110px] md:leading-[100px] lg:text-[150px] leading-[90px] lg:leading-[130px] xl:leading-[150px] font-normal xl:text-[170px]">
                     Viviane <br /> Luiz <br /> Macedo
                 </h1>
             </motion.div>
@@ -54,8 +54,8 @@ function Inicio() {
                 animate={showContent ? { opacity: 1 } : {}}
                 transition={{ duration: 1.2, delay: 1 }}
             >
-                <h2 className="bg-gradient-to-r from-amber-200 to-orange-400 bg-clip-text text-transparent text-[20px] tracking-[15px] font-Inter font-medium lg:text-[35px]">ADVOCACIA</h2>
-                <p className="text-amber-200 text-[17px] lg:text-[22px] w-full mt-[20px] mb-[25px] font-Inter font-extralight">
+                <h2 className="bg-linear-to-r from-amber-200 to-orange-400 bg-clip-text text-transparent text-[20px] tracking-[15px] font-Inter font-medium lg:text-[35px]">ADVOCACIA</h2>
+                <p className="text-amber-200 text-[17px] lg:text-[22px] w-full mt-5 mb-[25px] font-Inter font-extralight">
                     Compliance estratégico e jurídico para mitigar riscos e impulsionar governança.
                 </p>
                 <p className="text-white w-full text-[16px] font-Inter font-extralight lg:text-[20px]">
