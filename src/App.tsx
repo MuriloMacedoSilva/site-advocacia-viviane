@@ -1,6 +1,6 @@
 // App.tsx
 
-import { useState } from 'react';
+// import { useState } from 'react';
 // IMPORTANTE: Atualizando as extensões de importação para .tsx
 import Inicio from "../src/components/Inicio.tsx";
 import Header from "../src/components/Header.tsx";

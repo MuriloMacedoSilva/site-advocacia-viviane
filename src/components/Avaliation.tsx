@@ -4,7 +4,7 @@ import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useState, useEffect } from "react";
 import React from 'react'; // Importação explícita do React para tipagem de FC
-import { Star, User, MessageSquare, Loader2 } from 'lucide-react';
+import { Star, User, MessageSquare, /*Loader2*/ } from 'lucide-react';
 // Assumindo que você está usando 'react-router-dom', o tipo é importado de lá.
 import { Link } from 'react-router-dom'; // CORRIGIDO: Assumindo react-router-dom
 
@@ -15,7 +15,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 // --- CONFIGURAÇÃO DA API ---
-const API_ENDPOINT = 'https://api-viviane.onrender.com/avaliacao';
+// const API_ENDPOINT = 'https://api-viviane.onrender.com/avaliacao';
 // --- FIM CONFIGURAÇÃO DA API ---
 
 // 1. INTERFACE DE DADOS: Define a estrutura do objeto de avaliação retornado pela API
@@ -90,11 +90,11 @@ function Avaliation() {
 
     // --- ESTADOS PARA A BUSCA DE DADOS ---
     // O TypeScript agora sabe que 'avaliacoes' é um array de objetos AvaliacaoData
-    const [avaliacoes, setAvaliacoes] = useState<AvaliacaoData[]>([]);
+    const [avaliacoes, /*setAvaliacoes*/] = useState<AvaliacaoData[]>([]);
     // O TS infere boolean para isLoading e slidePerview como number
-    const [isLoading, setIsLoading] = useState(true);
+    // const [isLoading, setIsLoading] = useState(true);
     // O TS infere string ou null para o erro
-    const [error, setError] = useState<string | null>(null);
+    // const [error, setError] = useState<string | null>(null);
     // --- FIM ESTADOS PARA A BUSCA DE DADOS ---
     
     const [slidePerview, setSlidePerview] = useState(3);
@@ -179,8 +179,8 @@ function Avaliation() {
 
 
     return ( 
-        <section className=" w-screen m-auto bg-gradient-to-b md:from-black/80 to-50% md:to-black/80 from-black/90 to-black items-center justify-center pb-[20px] relative overflow-hidden top-0">
-            <h2 className='md:w-[400px] w-[90%] m-auto flex items-center justify-center md:pt-[50px] mb-[40px] pt-[100px] text-[36px] bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent font-Inter font-medium'>O que os clientes dizem</h2>
+        <section className=" w-screen m-auto bg-linear-to-b md:from-black/80 to-50% md:to-black/80 from-black/90 to-black items-center justify-center pb-5 relative overflow-hidden top-0">
+            <h2 className='md:w-[400px] w-[90%] m-auto flex items-center justify-center md:pt-[50px] mb-10 pt-[100px] text-[36px] bg-linear-to-r from-orange-300 from-0% to-80% to-yellow-200 bg-clip-text text-transparent font-Inter font-medium'>O que os clientes dizem</h2>
             
             <Swiper
                 direction='horizontal'

@@ -1,7 +1,7 @@
 // Footer.tsx
 
 // Importações de ícones e imagem mantêm a sintaxe JS, pois os tipos são conhecidos pelo TypeScript/React.
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { /*FaFacebookF,*/ FaInstagram, FaLinkedinIn, FaWhatsapp, /*FaPhoneAlt,*/ FaEnvelope } from "react-icons/fa";
 import logoHead from "../assets/logoHead.png";
 
 // Usamos 'export default function Footer()' em vez de 'export default Footer'
@@ -10,7 +10,7 @@ import logoHead from "../assets/logoHead.png";
 
 export default function Footer() {
     return (
-        <footer className="bg-gradient-to-b from-black to-mar border-t border-amber-200 text-white py-10 relative bottom-0">
+        <footer className="bg-linear-to-b from-black to-mar border-t border-amber-200 text-white py-10 relative bottom-0">
             <div className="container mx-auto px-2.5 lg:px-20 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
 
                 {/* Logo e endereço */}
@@ -59,7 +59,7 @@ export default function Footer() {
                 href="https://wa.me/5511996669191"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="fixed z-[1000] bottom-6 right-6 bg-green-500 p-4 rounded-full shadow-lg hover:bg-green-600 transition"
+                className="fixed z-1000 bottom-6 right-6 bg-green-500 p-4 rounded-full shadow-lg hover:bg-green-600 transition"
             >
                 <FaWhatsapp size={24} className="text-white" />
             </a>
