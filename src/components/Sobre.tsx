@@ -23,7 +23,7 @@ function Sobre() {
                         Com forte atuação nas áreas de Direito <strong className="bg-linear-to-r from-orange-300 from-0% to-80% to-yellow-200 bg-clip-text text-transparent">Empresarial, Contratual, Cível e Tributário</strong>, o escritório está em constante evolução para atender às novas demandas do mercado, incorporando a <strong className="bg-linear-to-r from-orange-300 from-0% to-80% to-yellow-200 bg-clip-text text-transparent">tecnologia</strong> como pilar essencial para os negócios contemporâneos. Reconhecendo a importância da transformação digital, oferece soluções jurídicas alinhadas às necessidades de um cenário empresarial em constante mudança.</p>
                     <a href="https://wa.me/+5511996669191" target="_blank" className="bg-amber-200 p-5 cursor-pointer hover:bg-amber-100 transition duration-200 mt-6">TRANSFORME SEU NEGÓCIO</a>
                 </div>
-                <div className="h-[100%] top-0 flex right-0 absolute flex-col items-center justify-end">
+                <div className="h-full top-0 flex right-0 absolute flex-col items-center justify-end">
                     <img src={logoHead} alt="logo" className="max-w-[100px] hidden md:block" />
                 </div>
             </div>

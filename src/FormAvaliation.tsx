@@ -195,7 +195,7 @@ const FormAvaliation: React.FC = () => {
                     </button>
 
                     {/* Título Principal */}
-                    <h1 className="text-4xl sm:text-5xl font-extrabold mb-8 text-center bg-gradient-to-r from-yellow-300 to-yellow-600 text-transparent bg-clip-text font-Italiana font-bold">
+                    <h1 className="text-4xl sm:text-5xl font-bold mb-8 text-center bg-linear-to-r from-yellow-300 to-yellow-600 text-transparent bg-clip-text font-Italiana">
                     Nos Avalie
                     </h1>
 
