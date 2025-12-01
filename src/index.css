@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@theme {
+    --font-Italiana: "Italiana", "sans-serif";
+    --font-Instrument: "Instrument", "sans-serif";
+    --font-Inika: "Inika", "serif";
+    --font-Inter: "Inter", "sans-serif";
+    --color-mar: #253646;
+    --color-ceu: #5A84AC;
+}
+
+@import "tailwindcss";
