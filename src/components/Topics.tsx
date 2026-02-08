@@ -1,9 +1,9 @@
 // Topics.tsx
 
 // O TypeScript infere que estas importações são do tipo string (caminhos de imagem).
-import tech from "../assets/tech.png";
-import pessoas from "../assets/pessoas.png";
-import olho from "../assets/olho.png";
+import tech from "../assets/tech.jpg";
+import pessoas from "../assets/pessoas.jpg";
+import olho from "../assets/olho.jpg";
 
 function Topics() {
     return (

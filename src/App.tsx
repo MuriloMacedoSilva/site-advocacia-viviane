@@ -14,8 +14,8 @@ import React, { useEffect } from 'react';
 import  {  lazy,  Suspense } from "react"
 
 // Importações de assets (caminhos de imagem)
-import background2 from "./assets/background2.png";
-import background2_mobile from "./assets/background2_mobile.png";
+import background2 from "./assets/background2.jpg";
+import background2_mobile from "./assets/background2_mobile.jpg";
 
 // O componente App não usa o estado 'useState' importado, mas se for usado no futuro,
 // o TypeScript já o reconhece.

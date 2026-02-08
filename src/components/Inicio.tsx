@@ -2,10 +2,10 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 // O TypeScript trata as importações de imagens como string, o que é o comportamento esperado.
-import backgroundMobile from "../assets/backgroundMobile.png";
-import logoZap from "../assets/logoZap.png";
-import backgroundInicio from "../assets/backgroundInicio.png";
-import backgroundInicioXL from "../assets/backgroundInicioXL.png";
+import backgroundMobile from "../assets/backgroundMobile.jpg";
+import logoZap from "../assets/logoZap.jpg";
+import backgroundInicio from "../assets/backgroundInicio.jpg";
+import backgroundInicioXL from "../assets/backgroundInicioXL.jpg";
 
 // O componente Header não recebe props, então não é necessária uma interface de props.
 function Inicio() {

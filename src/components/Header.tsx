@@ -1,4 +1,4 @@
-import logoHead from "../assets/logoHead.png";
+import logoHead from "../assets/logoHead.jpg";
 import { useEffect, useState } from "react";
 // Importe React para tipagem explícita se desejar, mas não é estritamente necessário
 // para componentes de função simples como este no TSX moderno.

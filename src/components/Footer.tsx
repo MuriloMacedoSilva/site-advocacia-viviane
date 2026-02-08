@@ -2,7 +2,7 @@
 
 // Importações de ícones e imagem mantêm a sintaxe JS, pois os tipos são conhecidos pelo TypeScript/React.
 import { /*FaFacebookF,*/ FaInstagram, FaLinkedinIn, FaWhatsapp, /*FaPhoneAlt,*/ FaEnvelope } from "react-icons/fa";
-import logoHead from "../assets/logoHead.png";
+import logoHead from "../assets/logoHead.jpg";
 
 // Usamos 'export default function Footer()' em vez de 'export default Footer'
 // com a função definida separadamente. Ambas são válidas, mas manteremos a

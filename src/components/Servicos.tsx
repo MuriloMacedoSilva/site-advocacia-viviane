@@ -5,14 +5,14 @@ import { Navigation, Pagination, /*Scrollbar,*/ A11y, Mousewheel, Autoplay } fro
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Importações de imagens são inferidas como string
-import empresarial from "../assets/empresarial.png";
-import empresarialMobile from "../assets/empresarial-mobile.png";
-import contratual from "../assets/contratual.png";
-import contratualMobile from "../assets/contratual-mobile.png";
-import civil from "../assets/civil.png";
-import civilMobile from "../assets/civil-mobile.png";
-import tributario from "../assets/tributario.png";
-import tributarioMobile from "../assets/tributario-mobile.png";
+import empresarial from "../assets/empresarial.jpg";
+import empresarialMobile from "../assets/empresarial-mobile.jpg";
+import contratual from "../assets/contratual.jpg";
+import contratualMobile from "../assets/contratual-mobile.jpg";
+import civil from "../assets/civil.jpg";
+import civilMobile from "../assets/civil-mobile.jpg";
+import tributario from "../assets/tributario.jpg";
+import tributarioMobile from "../assets/tributario-mobile.jpg";
 
 import "swiper/css";
 import "swiper/css/navigation";

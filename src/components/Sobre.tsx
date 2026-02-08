@@ -1,8 +1,8 @@
 // Sobre.tsx
 
 // O TypeScript infere que estas importações são do tipo string (caminhos de imagem).
-import VivianeFoto1 from "../assets/VivianeFoto1.png";
-import logoHead from "../assets/logoHead.png";
+import VivianeFoto1 from "../assets/VivianeFoto1.jpg";
+import logoHead from "../assets/logoHead.jpg";
 
 function Sobre() {
     return (
