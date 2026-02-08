@@ -1,21 +1,25 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
+// import App from './App.jsx'
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
-import FormAvaliation from './FormAvaliation';
+// import FormAvaliation from './FormAvaliation';
+import { lazy, Suspense } from "react"
 
+
+const App = lazy(() => import("./App"));
+const FormAvaliation = lazy(() => import("./FormAvaliation"));
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>
+    element: <Suspense fallback={<p>Loading...</p>}> <App/> </Suspense>
   },
   {
     path: "/formAvaliation",
-    element: <FormAvaliation/>
+    element: <Suspense fallback={<p>Loading...</p>}> <FormAvaliation/> </Suspense>
   },
 ]);
 
